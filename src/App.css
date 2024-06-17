@@ -1,0 +1,11 @@
+.hover-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    text-align: center;
+    pointer-events: none; /* Ensures the hover effect works correctly */
+  }
