@@ -53,8 +53,7 @@ const Intro = () => {
         and a variety of coding languages. I'm a quick learner and collaborate
         closely with clients to create efficient, scalable, and user-friendly 
         solutions that solve real-world problems. Let's work together to bring
-        your ideas to life! Feel free to ask the chatbot below anything you'd like
-        to know about me. If it can't answer, feel free to reach out personally!
+        your ideas to life! Feel free to reach out personally with any questions!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
