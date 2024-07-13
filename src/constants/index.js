@@ -198,7 +198,7 @@ export const experiences = [
     {
       name: "Premier League Fantasy Football App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Full Stack Premier League Fantasy football application that allows users to create and manage their fantasy teams",
       tags: [
         {
           name: "aws",
@@ -209,7 +209,7 @@ export const experiences = [
           color: "blue-text-gradient",
         },
         {
-          name: "nodejs",
+          name: "springboot",
           color: "green-text-gradient",
         },
       ],
@@ -219,14 +219,14 @@ export const experiences = [
     {
       name: "Machine Learning ",
       description:
-        "Produced machine learning model that predicted the box-office success of movies. Available at https://google.com/",
+        "Produced machine learning model that predicted the outcomes of chess games using Tensor Flow based on parsed chess-game data",
       tags: [
         {
-          name: "pytorch",
+          name: "tensorflow",
           color: "red-text-gradient",
         },
         {
-          name: "react",
+          name: "databases",
           color: "green-text-gradient",
         },
         {
