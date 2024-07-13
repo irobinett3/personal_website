@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { git } from "../constants"; // Assuming you have the icon images in your assets folder
-import { chatbot } from "../constants"; // Adjust the paths as per your file structure
+import { linkedin } from "../constants"; // Adjust the paths as per your file structure
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -65,7 +65,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="text-white hover:text-secondary"
           >
-            <img src={chatbot} alt="LinkedIn" className="h-4 w-4 sm:h-10 sm:w-10" />
+            <img src={linkedin} alt="LinkedIn" className="h-4 w-4 sm:h-10 sm:w-10" />
           </a>
         </div>
 
