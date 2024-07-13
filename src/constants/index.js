@@ -198,7 +198,7 @@ export const experiences = [
     {
       name: "Premier League Fantasy Football App",
       description:
-        "Full Stack Premier League Fantasy football application that allows users to create and manage their fantasy teams",
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
           name: "aws",
@@ -219,7 +219,7 @@ export const experiences = [
     {
       name: "Machine Learning ",
       description:
-        "Produced machine learning model that predicted the outcomes of chess games using Tensor Flow based on parsed chess-game data",
+        "Produced machine learning model that predicted the box-office success of movies. Available at https://google.com/",
       tags: [
         {
           name: "tensorflow",
@@ -240,7 +240,7 @@ export const experiences = [
     {
       name: "NodeJS Chat Bot",
       description:
-        "Used the OpenAI API to create a chatbot hosted on NodeJS. This website uses it right now, check it out above!",
+        "Used the OpenAI API to create a chatbot hosted on NodeJS.",
       tags: [
         {
           name: "nodejs",

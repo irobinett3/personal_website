@@ -52,7 +52,7 @@ const Navbar = () => {
         {/* LinkedIn and GitHub Links */}
         <div className="flex gap-4 sm:gap-8">
           <a
-            href="https://github.com/"
+            href="https://github.com/irobinett3"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-secondary"
@@ -60,7 +60,7 @@ const Navbar = () => {
             <img src={git} alt="GitHub" className="h-4 w-4 sm:h-10 sm:w-10" />
           </a>
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/ian-robinett-03507a25a/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-secondary"

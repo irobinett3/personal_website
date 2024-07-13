@@ -20,7 +20,6 @@ function App() {
         </div>
         <div className="App">
           <Intro />
-          <Chatbot />
           <Timeline />
           <Projects />
           <CampusInvolement />

@@ -40,6 +40,7 @@ const CampusInvolvement = () => {
                   </span>
                 ))}
               </div>
+              {/*
               <div className="mt-4">
                 <a
                   href={experience.source_code_link}
@@ -50,6 +51,7 @@ const CampusInvolvement = () => {
                   View Source Code
                 </a>
               </div>
+              */}
             </div>
           </div>
         </div>
