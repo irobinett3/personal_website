@@ -24,7 +24,7 @@ const Chatbot = () => {
         try {
             setLoading(true);
 
-            const response = await fetch('https://nodejs-chat-bot.vercel.app/chat/', {
+            const response = await fetch('https://nodejs-chat-5t0bgxihq-ian-robinetts-projects-ce4861df.vercel.app/chat/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
