@@ -19,9 +19,9 @@ import python from '../assets/python.jpg'
 import ndlug from '../assets/ndlug.jpg'
 import postgresql from '../assets/postgresql.png'
 import chatbot from '../assets/chatbot.png'
- 
+import linkedin from '../assets/linked.webp'
 
-export { chatbot };
+export { linkedin };
 
 export { threejs, python, postgresql }
 
