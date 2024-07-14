@@ -1,14 +1,14 @@
 import React, { useState } from "react";
-import { Decal, Float, Html, useTexture } from "@react-three/drei";
+import { Decal, Float, useTexture } from "@react-three/drei"; // Removed Html import
 
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
-  const [hovered, setHovered] = useState(false);
+  // const [hovered, setHovered] = useState(false); // Commented out the hovered state
 
   return (
     <group
-      onPointerOver={() => setHovered(true)}
-      onPointerOut={() => setHovered(false)}
+      // onPointerOver={() => setHovered(true)}
+      // onPointerOut={() => setHovered(false)}
     >
       <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
         <ambientLight intensity={0.25} />
@@ -30,11 +30,13 @@ const Ball = (props) => {
           />
         </mesh>
       </Float>
+      {/*
       {hovered && (
         <Html position={[0, 0, 2]} center>
           <div className="hover-text">{props.name}</div>
         </Html>
       )}
+      */}
     </group>
   );
 };
