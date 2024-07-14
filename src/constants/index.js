@@ -283,10 +283,6 @@ export const experiences = [
       title: "Intro",
     },
     {
-      id: "Chatbot",
-      title: "Chatbot",
-    },
-    {
       id: "Timeline",
       title: "Experience",
     },
