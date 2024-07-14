@@ -20,7 +20,7 @@ import ndlug from '../assets/ndlug.jpg'
 import postgresql from '../assets/postgresql.png'
 import chatbot from '../assets/chatbot.png'
 import linkedin from '../assets/linked.webp'
-
+import tensorflow from '../assets/tensorflow.png'
 export { linkedin };
 
 export { threejs, python, postgresql }
@@ -35,10 +35,12 @@ export const experiences = [
     iconBg: "#383E56",
     date: "May 2024 - Aug 2024",
     points: [
-      "Developing AI-powered job search technologies for job search companies.",
-      "Consistently meeting with Dr. Collin McMillan to develop Flask application to be used to search unprocessed database by job search companies .",
-      "Implementing word embeddings and other search techniques incoporating AI to process location, industry, and a variety of factors.",
-      "Participating in code reviews and providing constructive feedback to my professor.",
+      "Working closely with Natural Language Processing specialist Dr. Collin McMillan to produce a Flask app that searches databases for job search companies based on natural language queries",
+      "Created and manipulated several different databases in PostgreSQL to manage sensitive data for hundreds of thousands of individuals",
+      "Developed word embeddings for each person’s data as well as each given query, and differentiated good results for a query based on the cosine similarity for each person’s word embedding",
+      "Used the OpenAI API to parse out factors from every query such as the location, revenue, and employee range",
+      "Generated a search algorithm that sorted based on a variety of factors including cosine similarity, location, revenue range, and company",
+      "Developed a flask application that took a query, parsed a SQL database, and performed search to display relevant results to the query and offer Excel download with necessary information",
     ],
   },
   {
@@ -48,9 +50,9 @@ export const experiences = [
     iconBg: "#E6DEDD",
     date: "May 2023 - Aug 2023",
     points: [
-      "Managed hundreds of customers per day working as a server at a luxury restaurant and movie theater.",
-      "Handled food and beverage orders from customers and cleaned theaters daily",
-      "Collaborated with other servers to produce optimal customer experience",
+      "Managed hundreds of customers daily, while offering stellar service and satisfaction in a luxury restaurant and movie theater environment",
+      "Strong interpersonal skills for interacting with guests, employees, and management, while ensuring an indulging experience to return customers and receiving a 95% customer satisfaction rating",
+      "Worked with Vista Point of Sale System, in addition to having strong mathematical, analytical, and problem-solving skills",
     ],
   },
   {
@@ -60,8 +62,8 @@ export const experiences = [
     iconBg: "#383E56",
     date: "Nov 2019 - May 2022",
     points: [
-      "Provided Tutoring for High School students in STEM subjects",
-      "Assisted many students to whom English was not first language",
+      "Provided comprehensive tutoring services to students in STEM subjects",
+      "Tutored students whose first language was not English and fostered their academic growth",
     ],
   },
 ];
@@ -135,11 +137,11 @@ export const experiences = [
         "Assembled Notre Dame students to remodel the website of ADEC, a company managing adults with disabilities",
       tags: [
         {
-          name: "HTML",
+          name: "Project Leadership",
           color: "blue-text-gradient",
         },
         {
-          name: "WordPress",
+          name: "Web Development",
           color: "green-text-gradient",
         },
         {
@@ -160,7 +162,7 @@ export const experiences = [
           color: "blue-text-gradient",
         },
         {
-          name: "django",
+          name: "gui",
           color: "green-text-gradient",
         },
         {
@@ -198,7 +200,7 @@ export const experiences = [
     {
       name: "Premier League Fantasy Football App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Developed application allowing users create their own fantasy premier league teams",
       tags: [
         {
           name: "aws",
@@ -217,9 +219,9 @@ export const experiences = [
       source_code_link: "https://github.com/",
     },
     {
-      name: "Machine Learning ",
+      name: "Chess Machine Learning Model",
       description:
-        "Produced machine learning model that predicted the box-office success of movies. Available at https://google.com/",
+        "Produced machine learning model that predicts the outcome of chess games",
       tags: [
         {
           name: "tensorflow",
@@ -230,11 +232,11 @@ export const experiences = [
           color: "green-text-gradient",
         },
         {
-          name: "python",
+          name: "sql",
           color: "pink-text-gradient",
         },
       ],
-      image: pytorch,
+      image: tensorflow,
       source_code_link: "https://github.com/",
     },
     {
@@ -247,7 +249,7 @@ export const experiences = [
           color: "green-text-gradient",
         },
         {
-          name: "reactjs",
+          name: "back-end",
           color: "blue-text-gradient",
         },
         {

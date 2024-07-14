@@ -49,11 +49,11 @@ const Intro = () => {
       >
         I'm a skilled software developer with experience in a variety of languages 
         and technologies, specializing in Artificial Intelligence and Software
-        Development. I have expertise in technologies such as React, Node.js, PyTorch,
+        Development. I have expertise in technologies such as React, Node.js, TensorFlow,
         and a variety of coding languages. I'm a quick learner and collaborate
-        closely with clients to create efficient, scalable, and user-friendly 
-        solutions that solve real-world problems. Let's work together to bring
-        your ideas to life! Feel free to reach out personally with any questions!
+        closely with peers to create efficient, scalable, and user-friendly 
+        solutions that solve real-world problems. Feel free to reach out personally 
+        with any questions!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
