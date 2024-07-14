@@ -258,7 +258,7 @@ export const experiences = [
         },
       ],
       image: nodejs,
-      source_code_link: "https://github.com/irobinett3/nodejs_chat_bot,
+      source_code_link: "https://github.com/irobinett3/nodejs_chat_bot",
     },
   ];
   
