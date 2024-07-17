@@ -198,25 +198,25 @@ export const experiences = [
   
   export const projects = [
     {
-      name: "Premier League Fantasy Football App",
+      name: "React AI Website Generator",
       description:
-        "Developed application allowing users create their own fantasy premier league teams",
+        "Developing application that uses artifical intelligence to create react websites for users",
       tags: [
         {
           name: "aws",
           color: "orange-text-gradient",
         },
         {
-          name: "sql",
+          name: "cloud_computing",
           color: "blue-text-gradient",
         },
         {
-          name: "springboot",
+          name: "django",
           color: "green-text-gradient",
         },
       ],
       image: aws,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/irobinett3/website_developer",
     },
     {
       name: "Chess Machine Learning Model",
