@@ -237,7 +237,7 @@ export const experiences = [
         },
       ],
       image: tensorflow,
-      source_code_link: "https://github.com/irobinett3/machine_model",
+      source_code_link: "https://github.com/irobinett3/chess_model",
     },
     {
       name: "NodeJS Chat Bot",
