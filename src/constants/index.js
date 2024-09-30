@@ -35,12 +35,23 @@ export const experiences = [
     iconBg: "#383E56",
     date: "May 2024 - Aug 2024",
     points: [
-      "Working closely with Natural Language Processing specialist Dr. Collin McMillan to produce a Flask app that searches databases for job search companies based on natural language queries",
-      "Created and manipulated several different databases in PostgreSQL to manage sensitive data for hundreds of thousands of individuals",
-      "Developed word embeddings for each person’s data as well as each given query, and differentiated good results for a query based on the cosine similarity for each person’s word embedding",
-      "Used the OpenAI API to parse out factors from every query such as the location, revenue, and employee range",
-      "Generated a search algorithm that sorted based on a variety of factors including cosine similarity, location, revenue range, and company",
-      "Developed a flask application that took a query, parsed a SQL database, and performed search to display relevant results to the query and offer Excel download with necessary information",
+      "Implementing an automated data collection tool leveraging LLMs to extract thermal performance curves from scientific literature",
+      "Developed applications of machine learning to chemistry using Random Forest, Scikit-learn, PyTorch, and TensorFlow",
+	    "Constructing an open-source book Hands-on Data Science for Chemists with Dr. Xiangliang Zhang to provide chemists with a resource to understand AI and Machine Learning in the context of their field",
+    ],
+  },
+  {
+    title: "Software Developer",
+    company_name: "University of Notre Dame",
+    icon: nd,
+    iconBg: "#383E56",
+    date: "May 2024 - Aug 2024",
+    points: [
+      "Deployed an AI-powered SQL search engine that cut runtime by 97%, processing over 400,000 records, delivering precise results",
+      "Wrote and optimized SQL queries to support data retrieval and manipulation, ensuring accurate and efficient performance",
+	    "Tailored a backend search API that used natural language processing to analyze a variety of factors including location, revenue range, and company, while dynamically generating word embeddings to compare cosine similarity and generate optimal results",
+	    "Enhanced JavaScript frontend to optimize user experience and functionality",
+
     ],
   },
   {
