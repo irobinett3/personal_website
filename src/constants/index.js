@@ -1,5 +1,6 @@
 import cinepolis from '../assets/cinepolis.jpg'
 import django from '../assets/django.png'
+import rappo from '../assets/rappo.jpg'
 import nd from '../assets/nd.png'
 import oaks from '../assets/oaks.jpg'
 import adec from '../assets/adec.png'
@@ -29,15 +30,25 @@ export { git };
 
 export const experiences = [
   {
-    title: "Undergraduate Research Assistant",
-    company_name: "University of Notre Dame",
-    icon: nd,
+    title: "Software Engineer Intern",
+    company_name: "Rappo",
+    icon: rappo,
     iconBg: "#383E56",
     date: "May 2024 - Aug 2024",
     points: [
-      "Implementing an automated data collection tool leveraging LLMs to extract thermal performance curves from scientific literature",
-      "Developed applications of machine learning to chemistry using Random Forest, Scikit-learn, PyTorch, and TensorFlow",
-	    "Constructing an open-source book Hands-on Data Science for Chemists with Dr. Xiangliang Zhang to provide chemists with a resource to understand AI and Machine Learning in the context of their field",
+      "Enhanced Rappo’s scraping and data preprocessing algorithms, boosting data generation efficiency by 23%",
+	    "Architecting and fine-tuning PyTorch CNNs using hyperparameter tuning and loss function optimization to rank engineering champions and match them with startup founders",
+    ],
+  },
+  {
+    title: "Research Assistant",
+    company_name: "University of Notre Dame",
+    icon: nd,
+    iconBg: "#383E56",
+    date: "Aug 2024 - Present",
+    points: [
+      "Optimized machine learning algorithms for molecular classification using PyTorch and TensorFlow, achieving 90%+ accuracy",
+	    "Co-authoring an open-source book Hands-on Data Science for Chemists with Dr. Xiangliang Zhang",
     ],
   },
   {
@@ -47,11 +58,11 @@ export const experiences = [
     iconBg: "#383E56",
     date: "May 2024 - Aug 2024",
     points: [
-      "Deployed an AI-powered SQL search engine that cut runtime by 97%, processing over 400,000 records, delivering precise results",
-      "Wrote and optimized SQL queries to support data retrieval and manipulation, ensuring accurate and efficient performance",
-	    "Tailored a backend search API that used natural language processing to analyze a variety of factors including location, revenue range, and company, while dynamically generating word embeddings to compare cosine similarity and generate optimal results",
-	    "Enhanced JavaScript frontend to optimize user experience and functionality",
-
+      "Deployed a Flask-based AI-driven SQL search engine integrated with OpenAI’s GPT-4o that cut processing time by 97%",
+      "Normalized relational databases in PostgreSQL for over 400,000 individuals, wrote efficient SQL queries for data manipulation",
+	    "Optimized backend REST API using natural language processing to analyze a variety of factors including location and company, dynamically generating word embeddings for improved results",
+	    "Enhanced JavaScript frontend to optimize user interface performance and interactivity for data-intensive user workflows",
+      "Built an automated testing and debugging framework using Java and Jenkins pipelines, reducing troubleshooting time by 30% and ensuring robust CI/CD deployment for AI-driven applications",
     ],
   },
   {
