@@ -22,6 +22,7 @@ import postgresql from '../assets/postgresql.png'
 import chatbot from '../assets/chatbot.png'
 import linkedin from '../assets/linked.webp'
 import tensorflow from '../assets/tensorflow.png'
+import oigetit from '../assets/oigetit.jpg'
 export { linkedin };
 
 export { threejs, python, postgresql }
@@ -49,6 +50,17 @@ export const experiences = [
     points: [
       "Optimized machine learning algorithms for molecular classification using PyTorch and TensorFlow, achieving 90%+ accuracy",
 	    "Co-authoring an open-source book Hands-on Data Science for Chemists with Dr. Xiangliang Zhang",
+    ],
+  },
+  {
+    title: "Software Engineer Intern",
+    company_name: "Oigetit.ai",
+    icon: oigetit,
+    iconBg: "#383E56",
+    date: "Oct 2024 - Nov 2024",
+    points: [
+      "Developing unit tests for distributed, multi-tiered systems, improving QA efficiency and ensuring reliable CI/CD deployments",
+	    "Collaborating with cross-disciplinary teams to optimize the software development lifecycle, leveraging Agile methodologies",
     ],
   },
   {
