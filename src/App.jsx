@@ -21,8 +21,8 @@ function App() {
         <div className="App">
           <section id="Intro"><Intro /></section>
           <section id="Timeline"><Timeline /></section>
-          <section id="Projects"><Projects /></section>
           <section id="CampusInvolvement"><CampusInvolvement /></section>
+          <section id="Projects"><Projects /></section>
           <section id="Skills"><Skills /></section>
           <Footer />
         </div>
