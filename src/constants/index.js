@@ -181,7 +181,7 @@ export const experiences = [
     {
       name: "ADEC Website Development",
       description:
-        "Oversaw a team of 5 students to rebuild ADEC’s website, redesigning frontend UX using JavaScript, HTML, and CSS"
+        "Oversaw a team of 5 students to rebuild ADEC’s website, redesigning frontend UX using JavaScript, HTML, and CSS",
       tags: [
         {
           name: "Project Leadership",
@@ -202,7 +202,7 @@ export const experiences = [
     {
       name: "IrishSAT Iris Project",
       description:
-        "Created a Python script that parsed weather data and calculated balloon trajectory, improving prediction accuracy by over 20%. Led UI development to process balloon data at runtime, showcased to NASA for project demos"
+        "Created a Python script that parsed weather data and calculated balloon trajectory, improving prediction accuracy by over 20%. Led UI development to process balloon data at runtime, showcased to NASA for project demos",
       tags: [
         {
           name: "python",
