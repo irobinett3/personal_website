@@ -23,6 +23,8 @@ import chatbot from '../assets/chatbot.png'
 import linkedin from '../assets/linked.webp'
 import tensorflow from '../assets/tensorflow.png'
 import oigetit from '../assets/oigetit.jpg'
+import mitll from '../assets/mitll.png'
+
 export { linkedin };
 
 export { threejs, python, postgresql }
@@ -31,50 +33,63 @@ export { git };
 
 export const experiences = [
   {
+    title: "Computer Vision Research Assistant",
+    company_name: "University of Notre Dame",
+    icon: nd,
+    iconBg: "#383E56",
+    date: "Aug 2025 - Present",
+    points: [
+      "Implementing SAM 2-based label-propagation for real-time medical object detection under Dr. Danny Chen",
+    ],
+  },
+  {
+    title: "Artificial Intelligence Engineer Intern",
+    company_name: "MIT Lincoln Laboratory",
+    icon: mitll,
+    iconBg: "#383E56",
+    date: "May 2025 - Aug 2025",
+    points: [
+      "Overhauled ML pipeline by refactoring data splits, features, and model architecture, reducing target-metric error by 75%",
+      "Engineered a scalable industrial building classification pipeline from OpenStreetMap data, achieving 87% F1-Score on a >150k sample test set, reducing error in target predictions by 50%",
+      "Architected novel neural network-based graph transformer architecture for intuitive model understanding of building classification, improving recall on minority classes by 25% from 60% to ~75%",
+      "Automated monthly retraining workflows on MITLL’s supercomputing GPU cluster, ensuring continuous global performance"
+    ],
+  },
+  {
     title: "Software Engineer Intern",
     company_name: "Rappo",
     icon: rappo,
     iconBg: "#383E56",
-    date: "May 2024 - Aug 2024",
+    date: "Oct 2024 - May 2025",
     points: [
-      "Enhanced Rappo’s scraping and data preprocessing algorithms, boosting data generation efficiency by 23%",
-	    "Architecting and fine-tuning PyTorch CNNs using hyperparameter tuning and loss function optimization to rank engineering champions and match them with startup founders",
+      "Containerized microservices with Docker and deployed via AWS EC2 Auto Scaling, achieving 99.9% production uptime",
+      "Developed an end-to-end ML pipeline for prospect mining, feature engineering, and Siamese neural network training, reducing outreach time by 80%",
+      "Automated data ingestion and model retraining schedules for weakly refreshes using cron jobs and Python scripting"
     ],
   },
   {
-    title: "Research Assistant",
+    title: "Machine Learning Research Assistant",
     company_name: "University of Notre Dame",
     icon: nd,
     iconBg: "#383E56",
-    date: "Aug 2024 - Present",
+    date: "Aug 2024 - Jan 2025",
     points: [
-      "Optimized machine learning algorithms for molecular classification using PyTorch and TensorFlow, achieving 90%+ accuracy",
-	    "Co-authoring an open-source book Hands-on Data Science for Chemists with Dr. Xiangliang Zhang",
+      "Designed machine learning algorithms for chemistry using PyTorch, TensorFlow, yielding accuracy scores exceeding 90%",
+      "Co-authored an open-source book, Hands-on Data Science for Chemists, with Dr. Xiangliang Zhang",
     ],
   },
   {
     title: "Software Engineer Intern",
-    company_name: "Oigetit.ai",
-    icon: oigetit,
-    iconBg: "#383E56",
-    date: "Oct 2024 - Nov 2024",
-    points: [
-      "Developing unit tests for distributed, multi-tiered systems, improving QA efficiency and ensuring reliable CI/CD deployments",
-	    "Collaborating with cross-disciplinary teams to optimize the software development lifecycle, leveraging Agile methodologies",
-    ],
-  },
-  {
-    title: "Software Developer",
     company_name: "University of Notre Dame",
     icon: nd,
     iconBg: "#383E56",
     date: "May 2024 - Aug 2024",
     points: [
-      "Deployed a Flask-based AI-driven SQL search engine integrated with OpenAI’s GPT-4o that cut processing time by 97%",
-      "Normalized relational databases in PostgreSQL for over 400,000 individuals, wrote efficient SQL queries for data manipulation",
-	    "Optimized backend REST API using natural language processing to analyze a variety of factors including location and company, dynamically generating word embeddings for improved results",
-	    "Enhanced JavaScript frontend to optimize user interface performance and interactivity for data-intensive user workflows",
-      "Built an automated testing and debugging framework using Java and Jenkins pipelines, reducing troubleshooting time by 30% and ensuring robust CI/CD deployment for AI-driven applications",
+      "Deployed a Flask-based AI-powered SQL search engine integrated with OpenAI’s GPT-4o, cutting runtime by 97%",
+      "Created normalized PostgreSQL databases for over 400,000 individuals, writing efficient PostgreSQL schema and queries to support data retrieval and manipulation, ensuring accurate and efficient performance",
+      "Optimized backend search API using NLP techniques (word embeddings, entity recognition) to optimize query relevance",
+      "Enhanced JavaScript frontend to optimize user experience and functionality, integrated with Jenkins for seamless CI/CD",
+      "Automated testing and debugging framework with Java scripts to reduce troubleshooting by 30%",
     ],
   },
   {
@@ -85,8 +100,6 @@ export const experiences = [
     date: "May 2023 - Aug 2023",
     points: [
       "Managed hundreds of customers daily, while offering stellar service and satisfaction in a luxury restaurant and movie theater environment",
-      "Strong interpersonal skills for interacting with guests, employees, and management, while ensuring an indulging experience to return customers and receiving a 95% customer satisfaction rating",
-      "Worked with Vista Point of Sale System, in addition to having strong mathematical, analytical, and problem-solving skills",
     ],
   },
   {
@@ -168,7 +181,7 @@ export const experiences = [
     {
       name: "ADEC Website Development",
       description:
-        "Assembled Notre Dame students to remodel the website of ADEC, a company managing adults with disabilities",
+        "Oversaw a team of 5 students to rebuild ADEC’s website, redesigning frontend UX using JavaScript, HTML, and CSS"
       tags: [
         {
           name: "Project Leadership",
@@ -189,7 +202,7 @@ export const experiences = [
     {
       name: "IrishSAT Iris Project",
       description:
-        "Wrote thousands of lines of Python code to generate balloon trajectory. Developed several UIs for ease of use",
+        "Created a Python script that parsed weather data and calculated balloon trajectory, improving prediction accuracy by over 20%. Led UI development to process balloon data at runtime, showcased to NASA for project demos"
       tags: [
         {
           name: "python",
@@ -205,27 +218,6 @@ export const experiences = [
         },
       ],
       image: irishsat,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Notre Dame Linux Users Group",
-      description:
-        "Engaged in meetings for Notre Dame Linux Users Group, aimed at developing the skills of young Computer Science Students at Notre Dame",
-      tags: [
-        {
-          name: "Linux",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Visual Studio Code",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Open Source Text Editors",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: ndlug,
       source_code_link: "https://github.com/",
     },
   ];

@@ -24,7 +24,6 @@ function App() {
           <section id="Projects"><Projects /></section>
           <section id="CampusInvolvement"><CampusInvolvement /></section>
           <section id="Skills"><Skills /></section>
-          <section id="Contact"><Contact /></section>
           <Footer />
         </div>
       </div>
