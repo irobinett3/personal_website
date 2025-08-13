@@ -21,8 +21,7 @@ const Skills = () => {
           cclassName='mt-6 mb-6 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
           The balls below each represent one of my most prominent skills.
-          feel free to ask the chatbot any questions you might have about
-          how I've applied them!
+          My main skills lie in AI/ML, Software Development, and Data Science.
         </motion.p>
       </div>
     <div className='flex flex-row flex-wrap justify-center gap-10 mt-10'>

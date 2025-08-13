@@ -24,6 +24,7 @@ import linkedin from '../assets/linked.webp'
 import tensorflow from '../assets/tensorflow.png'
 import oigetit from '../assets/oigetit.jpg'
 import mitll from '../assets/mitll.png'
+import apache from '../assets/apache_spark.png'
 
 export { linkedin };
 
@@ -290,16 +291,16 @@ export const experiences = [
   
   export const services = [
     {
-      title: "Artificial Intelligence Engineer",
+      title: "AI/ML Engineer",
       icon: pytorch,
     },
     {
-      title: "Software Developer",
-      icon: react,
+      title: "Software Engineer",
+      icon: nodejs,
     },
     {
-      title: "Backend Developer",
-      icon: nodejs,
+      title: "Data Scientist",
+      icon: apache,
     },
   ];
 
@@ -313,20 +314,15 @@ export const experiences = [
       title: "Experience",
     },
     {
-      id: "Projects",
-      title: "Projects",
-    },
-    {
       id: "CampusInvolvement",
       title: "Campus Involvement"
+    },
+    {
+      id: "Projects",
+      title: "Projects",
     },
     {
       id: "Skills",
       title: "Skills",
     },
-    {
-      id: "Contact",
-      title: "Contact",
-    },
-
   ];

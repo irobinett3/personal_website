@@ -47,10 +47,10 @@ const Intro = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in a variety of languages 
+        I'm a skilled software engineer with experience in a variety of languages 
         and technologies, specializing in Artificial Intelligence and Software
-        Development. I have expertise in technologies such as React, Node.js, TensorFlow,
-        and a variety of coding languages. I'm a quick learner and collaborate
+        Development. I have expertise in technologies such as Node.js, TensorFlow,
+        and a variety of other coding languages, libraries, and technologies. I'm a quick learner and collaborate
         closely with peers to create efficient, scalable, and user-friendly 
         solutions that solve real-world problems. Feel free to reach out personally 
         with any questions!
