@@ -53,7 +53,7 @@ const Intro = () => {
         and a variety of other coding languages, libraries, and technologies. I'm a quick learner and collaborate
         closely with peers to create efficient, scalable, and user-friendly 
         solutions that solve real-world problems. Feel free to reach out personally 
-        with any questions!
+        with any questions at robinettian4@gmail.com!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
